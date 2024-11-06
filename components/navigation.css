@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
 }
 
 svg.navbar__svg:hover {
