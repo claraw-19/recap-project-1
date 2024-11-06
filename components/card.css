@@ -12,14 +12,33 @@
   position: relative;
 }
 
-img.card__bookmark {
+svg.card__bookmark {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  width: 35px;
+  top: -10px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+p.card__question {
+  font-size: large;
+  color: var(--text-color);
 }
 
 p.card__solution {
   color: gray;
   font-weight: 500;
+}
+
+p.category {
+  font-weight: 500;
+  font-size: smaller;
+  background-color: #e0e0e0;
+  border: 2px solid var(--text-color);
+  border-radius: 5px;
+  display: flex;
+  align-self: start;
+  padding-left: 10px;
+  padding-right: 10px;
 }
