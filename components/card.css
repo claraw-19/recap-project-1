@@ -38,8 +38,12 @@ p.category {
   background-color: #e0e0e0;
   border: 2px solid var(--text-color);
   border-radius: 5px;
-  display: flex;
-  align-self: start;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+div.card__tag {
+  display: flex;
+  align-self: start;
+  gap: 10px;
 }
