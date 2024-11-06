@@ -1,0 +1,8 @@
+header {
+  background: var(--main-color);
+  text-align: center;
+  color: var(--accent-color-2);
+  margin: 5px;
+  text-transform: uppercase;
+  padding-block: 0.5px;
+}
