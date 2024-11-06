@@ -1,4 +1,5 @@
 .card {
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,11 +25,13 @@ svg.card__bookmark {
 p.card__question {
   font-size: large;
   color: var(--text-color);
+  text-align: center;
 }
 
 p.card__solution {
   color: gray;
   font-weight: 500;
+  text-align: center;
 }
 
 p.category {
@@ -37,8 +40,12 @@ p.category {
   background-color: #e0e0e0;
   border: 2px solid var(--text-color);
   border-radius: 5px;
-  display: flex;
-  align-self: start;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+div.card__tag {
+  display: flex;
+  align-self: start;
+  gap: 10px;
 }
