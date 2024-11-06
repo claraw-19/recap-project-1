@@ -19,16 +19,7 @@ img.card__bookmark {
   width: 35px;
 }
 
-button.category {
-  background-color: #e0e0e0;
-  border: 2px solid var(--text-color);
-  border-radius: 5px;
-  display: flex;
-  align-self: start;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-button.category:hover {
-  background-color: #aeaeae;
+p.card__solution {
+  color: gray;
+  font-weight: 500;
 }

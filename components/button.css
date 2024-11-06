@@ -12,3 +12,18 @@ button.card__answer {
 button.card__answer:hover {
   background-color: var(--complement-color);
 }
+
+button.category {
+  margin-top: 10px;
+  background-color: #e0e0e0;
+  border: 2px solid var(--text-color);
+  border-radius: 5px;
+  display: flex;
+  align-self: start;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button.category:hover {
+  background-color: #aeaeae;
+}
