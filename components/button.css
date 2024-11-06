@@ -1,0 +1,14 @@
+button.card__answer {
+  margin-bottom: 15px;
+  border-radius: var(--border-radius);
+  border: 2px solid var(--main-color);
+  padding: 7px;
+  background-color: var(--accent-color-1);
+  color: var(--text-color);
+  font-weight: bolder;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+button.card__answer:hover {
+  background-color: var(--complement-color);
+}
