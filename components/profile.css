@@ -46,3 +46,23 @@ svg.counter-images {
   gap: 20px;
   font-size: large;
 }
+
+.settings {
+  margin: 50px;
+  max-width: 600px;
+  font-weight: 500;
+}
+
+.darkmode {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#checkbox {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(231, 243, 234);
+  border: 2.5px solid rgb(0, 85, 62);
+  border-radius: 4px;
+}
