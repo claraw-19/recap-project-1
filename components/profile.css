@@ -12,18 +12,6 @@ svg.profile__picture {
   height: 200px;
 }
 
-.profile__about {
-  margin: 50px;
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-}
-
-.about {
-  display: flex;
-  justify-content: center;
-}
-
 .counter {
   display: flex;
   flex-wrap: wrap;
@@ -47,16 +35,26 @@ svg.counter-images {
   font-size: large;
 }
 
-.settings {
+.profile__about {
   margin: 50px;
-  max-width: 600px;
-  font-weight: 500;
+  display: flex;
+  flex-direction: column;
 }
 
-.darkmode {
+.about {
   display: flex;
-  gap: 20px;
-  align-items: center;
+  justify-content: center;
+}
+
+.profile__settings {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings {
+  display: block;
+  justify-content: start;
 }
 
 #checkbox {
@@ -65,4 +63,11 @@ svg.counter-images {
   background-color: rgb(231, 243, 234);
   border: 2.5px solid rgb(0, 85, 62);
   border-radius: 4px;
+}
+
+.darkmode {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 500;
 }
