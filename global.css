@@ -4,13 +4,6 @@ body {
   color: var(--text-color);
 }
 
-.container {
-  width: 100%;
-  max-width: 600px;
-  padding: 0 15px;
-  box-sizing: border-box;
-}
-
 :root {
   --main-color: rgb(0, 85, 62);
   --accent-color-1: rgb(255, 199, 111);
