@@ -1,0 +1,48 @@
+.profile__start {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin: 15px;
+  align-items: center;
+}
+
+svg.profile__picture {
+  width: 200px;
+  height: 200px;
+}
+
+.profile__about {
+  margin: 50px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.counter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+svg.counter-images {
+  width: 35px;
+  height: 35px;
+}
+.counter__box {
+  border-radius: 10px;
+  border: 3px solid var(--text-color);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+  gap: 20px;
+  font-size: large;
+}

@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: rgba(255, 200, 111, 0.428);
-}
-
 :root {
   --main-color: rgb(0, 85, 62);
   --accent-color-1: rgb(255, 199, 111);
@@ -14,6 +9,12 @@ body {
   --text-color: rgb(32, 32, 32);
   --complement-color: rgb(255, 115, 64);
   --border-radius: 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(255, 200, 111, 0.428);
+  color: var(--text-color);
 }
 
 .main-content {
