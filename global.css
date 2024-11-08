@@ -20,12 +20,3 @@ body {
   align-items: center;
   margin: 0;
 }
-
-.main-content__card-list {
-  list-style: none;
-  padding: 0;
-}
-
-li.card {
-  margin-bottom: 30px;
-}
