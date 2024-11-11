@@ -1,15 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: rgba(255, 200, 111, 0.428);
+  background-color: var(--background-color);
   color: var(--text-color);
 }
 
 :root {
   --main-color: rgb(0, 85, 62);
   --accent-color-1: rgb(255, 199, 111);
+  --background-color: rgba(255, 200, 111, 0.428);
   --accent-color-2: rgb(231, 243, 234);
   --text-color: rgb(32, 32, 32);
-  --complement-color: rgb(255, 115, 64);
+  --complement-color-1: rgb(255, 115, 64);
+  --complement-color-2: rgb(255, 228, 218);
   --border-radius: 10px;
 }
 
