@@ -12,6 +12,15 @@
   position: relative;
 }
 
+.main-content__card-list {
+  list-style: none;
+  padding: 0;
+}
+
+li.card {
+  margin-bottom: 30px;
+}
+
 svg.card__bookmark {
   position: absolute;
   top: -10px;
