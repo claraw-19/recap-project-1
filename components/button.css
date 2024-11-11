@@ -6,7 +6,7 @@ button.card__answer {
   background-color: var(--accent-color-1);
   color: var(--text-color);
   font-weight: bolder;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 5px var(--box-shadow);
   cursor: pointer;
   max-width: 200px;
   display: flex;

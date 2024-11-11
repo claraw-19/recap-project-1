@@ -12,14 +12,14 @@
     </header>
 
     <main class="main-content">
-      <div class="container">
+      <div class="profile">
         <div class="profile__start">
           <svg
             class="profile__picture"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="rgb(32, 32, 32)"
+            stroke="var(--text-color)"
             stroke-width="0.6"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -30,16 +30,16 @@
           </svg>
           <h2 class="profile__name">Clara Weyer</h2>
         </div>
-        <div class="about">
-          <section class="profile__about">
-            <h3>About me</h3>
-            <p>
-              --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-            </p>
-          </section>
-        </div>
-        <div class="counter">
-          <section class="counter__box">
+
+        <section class="profile__about">
+          <h3>About me</h3>
+          <p>
+            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          </p>
+        </section>
+
+        <div class="profile__counter">
+          <section class="profile__counter__box">
             <svg
               class="counter-images"
               xmlns="http://www.w3.org/2000/svg"
@@ -47,11 +47,10 @@
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="currentColor"
+              stroke="var(--text-color)"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="lucide lucide-circle-help"
             >
               <circle cx="12" cy="12" r="10" />
               <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
@@ -59,34 +58,32 @@
             </svg>
             <p>5</p>
           </section>
-          <section class="counter__box">
+          <section class="profile__counter__box">
             <svg
               class="counter-images"
               xmlns="http://www.w3.org/2000/svg"
               width="28"
               height="28"
               viewBox="0 0 24 24"
-              fill="rgb(255, 115, 64)"
-              stroke="rgb(255, 115, 64)"
+              fill="var(--complement-color-1)"
+              stroke="var(--complement-color-1)"
               stroke-width="2.5"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="lucide lucide-bookmark"
             >
               <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
             </svg>
             <p>3</p>
           </section>
         </div>
-        <div class="settings">
-          <section class="profile__settings">
-            <h3>Settings</h3>
-            <div class="darkmode">
-              <p>Darkmode</p>
-              <input type="checkbox" id="checkbox" />
-            </div>
-          </section>
-        </div>
+
+        <section class="profile__settings">
+          <h3>Settings</h3>
+          <div class="darkmode">
+            <p>Darkmode</p>
+            <input type="checkbox" id="checkbox" />
+          </div>
+        </section>
       </div>
     </main>
 
@@ -99,11 +96,10 @@
           height="28"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="#00553e"
+          stroke="var(--main-color)"
           stroke-width="2.5"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-house"
         >
           <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
           <path
@@ -119,11 +115,10 @@
           height="28"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="#00553e"
+          stroke="var(--main-color)"
           stroke-width="2.5"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-bookmark"
         >
           <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
         </svg>
@@ -136,11 +131,10 @@
           height="28"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="rgb(255, 115, 64)"
+          stroke="var(--complement-color-1)"
           stroke-width="2.5"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-circle-user-round"
         >
           <path d="M18 20a6 6 0 0 0-12 0" />
           <circle cx="12" cy="10" r="4" />
