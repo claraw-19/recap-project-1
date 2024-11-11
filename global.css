@@ -12,6 +12,7 @@ body {
   --text-color: rgb(32, 32, 32);
   --complement-color-1: rgb(255, 115, 64);
   --complement-color-2: rgb(255, 228, 218);
+  --box-shadow: rgba(0, 0, 0, 0.4);
   --border-radius: 10px;
 }
 
