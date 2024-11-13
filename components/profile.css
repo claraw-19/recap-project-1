@@ -48,7 +48,6 @@ svg.counter-images {
 .profile__settings {
   margin: 50px;
   max-width: 600px;
-  font-weight: 500;
 }
 .darkmode {
   display: flex;
@@ -60,6 +59,6 @@ svg.counter-images {
   width: 20px;
   height: 20px;
   background-color: var(--accent-color-1);
-  border: 2.5px solid var(--main-color);
+  border: 2.5px solid var(--main-colorx);
   border-radius: 4px;
 }
