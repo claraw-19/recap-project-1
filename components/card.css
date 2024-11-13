@@ -1,3 +1,8 @@
+.card-list {
+  list-style: none;
+  padding: 0;
+}
+
 .card {
   max-width: 600px;
   display: flex;
@@ -10,18 +15,10 @@
   border: 3px solid var(--main-color);
   box-shadow: 3px 3px 5px var(--box-shadow);
   position: relative;
-}
-
-.main-content__card-list {
-  list-style: none;
-  padding: 0;
-}
-
-li.card {
   margin-bottom: 30px;
 }
 
-svg.card__bookmark {
+.card__bookmark {
   position: absolute;
   top: -10px;
   right: 5px;
@@ -30,29 +27,29 @@ svg.card__bookmark {
   cursor: pointer;
 }
 
-p.card__question {
+.card__question {
   font-size: large;
   color: var(--text-color);
   text-align: center;
 }
 
-p.card__solution {
+.card__solution {
   color: var(--text-color);
   font-weight: 500;
   text-align: center;
 }
 
-p.category {
+.card__tag {
+  display: flex;
+  align-self: start;
+  gap: 10px;
+}
+
+.card__tag-category {
   font-weight: 500;
   font-size: smaller;
   border: 2px solid var(--text-color);
   border-radius: 5px;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-div.card__tag {
-  display: flex;
-  align-self: start;
-  gap: 10px;
 }

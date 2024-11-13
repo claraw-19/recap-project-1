@@ -4,6 +4,6 @@
   gap: 50px;
 }
 
-svg.navbar__svg:hover {
+.navbar__svg:hover {
   transform: scale(1.2);
 }

@@ -1,4 +1,4 @@
-button.card__answer {
+.button {
   margin-bottom: 15px;
   border-radius: var(--border-radius);
   border: 2px solid var(--main-color);
@@ -14,6 +14,6 @@ button.card__answer {
   align-items: center;
 }
 
-button.card__answer:hover {
-  background-color: var(--complement-color);
+.button:hover {
+  background-color: var(--complement-color-2);
 }
