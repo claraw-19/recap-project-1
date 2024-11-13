@@ -7,7 +7,6 @@ body {
 
 :root {
   --main-color: rgb(0, 85, 62);
-  --accent-color-1: rgb(255, 199, 111);
   --background-color: rgba(255, 200, 111, 0.428);
   --accent-color-2: rgb(231, 243, 234);
   --text-color: rgb(32, 32, 32);
