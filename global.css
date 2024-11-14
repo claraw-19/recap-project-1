@@ -16,6 +16,16 @@ body {
   --border-radius: 10px;
 }
 
+body.dark {
+  --main-color: rgb(0, 85, 62);
+  --background-color: rgb(32, 32, 32);
+  --accent-color-2: rgb(32, 32, 32);
+  --text-color: rgb(255, 228, 218);
+  --complement-color-1: rgb(255, 115, 64);
+  --complement-color-2: rgb(255, 228, 218);
+  --box-shadow: rgba(0, 0, 0, 0.4);
+}
+
 .main-content {
   padding-top: 15px;
   display: flex;

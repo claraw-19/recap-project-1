@@ -34,6 +34,7 @@ svg.counter-images {
   width: 35px;
   height: 35px;
 }
+
 .profile__counter__box {
   border-radius: 10px;
   border: 3px solid var(--text-color);
@@ -47,9 +48,19 @@ svg.counter-images {
 }
 
 .profile__settings {
-  width: 90%;
-  margin: auto;
-  margin-bottom: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.profile__settings__toggle {
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .profile__settings-darkmode-input {
