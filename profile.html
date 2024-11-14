@@ -79,6 +79,21 @@
 
         <section class="profile__settings">
           <h3>Settings</h3>
+
+          <form class="profile__settings" aria-labelledby="title">
+            <input
+              type="checkbox"
+              id="switch-darkmode"
+              class="profile__settings-darkmode-input"
+              data-js="darkmode-input"
+            />
+            <label
+              for="switch-darkmode"
+              class="profile__settings-darkmode-label"
+              >Toggle Darkmode</label
+            >
+          </form>
+
           <div class="darkmode">
             <p>Darkmode</p>
             <input type="checkbox" id="checkbox" />
