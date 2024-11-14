@@ -45,20 +45,58 @@ svg.counter-images {
   gap: 20px;
   font-size: large;
 }
+
 .profile__settings {
-  margin: 50px;
-  max-width: 600px;
-}
-.darkmode {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 70px;
 }
 
-#checkbox {
-  width: 20px;
-  height: 20px;
-  background-color: var(--accent-color-1);
-  border: 2.5px solid var(--main-colorx);
-  border-radius: 4px;
+.profile__settings-darkmode-input {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.profile__settings-darkmode-label {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: var(--fs-500);
+  height: 40px;
+}
+
+.profile__settings-darkmode-label:before {
+  width: 80px;
+  height: 40px;
+  display: block;
+  border-radius: 100px;
+  position: absolute;
+  content: "";
+  right: 0;
+  border: 2px solid var(--text-color);
+}
+
+.profile__settings-darkmode-label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  background: var(--main-color);
+  border-radius: 90px;
+  transition: right 0.3s;
+}
+
+.profile__settings-darkmode-input:checked
+  + .profile__settings-darkmode-label:before {
+  background: var(--box-shadow);
+}
+
+.profile__settings-darkmode-input:checked
+  + .profile__settings-darkmode-label:after {
+  right: 5px;
 }
