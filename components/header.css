@@ -1,7 +1,7 @@
 header {
   background: var(--main-color);
   text-align: center;
-  color: var(--accent-color-2);
+  color: rgb(231, 243, 234);
   margin: 5px;
   text-transform: uppercase;
   padding-block: 0.5px;

@@ -15,13 +15,16 @@
       <ul class="card-list">
         <li class="card">
           <p class="card__question">What does "HTML" stand for?</p>
-          <button class="button">Show answer</button>
-          <p hidden class="card__solution">Hypertext Markup Language</p>
+          <button class="button" data-js="button">Show answer</button>
+          <p hidden class="card__solution" data-js="solution">
+            Hypertext Markup Language
+          </p>
           <div class="card__tag">
             <p class="card__tag-category">#html</p>
           </div>
           <svg
             class="card__bookmark"
+            data-js="card__bookmark"
             xmlns="http://www.w3.org/2000/svg"
             width="28"
             height="28"
@@ -197,5 +200,6 @@
         </svg>
       </a>
     </footer>
+    <script src="toggle.js"></script>
   </body>
 </html>

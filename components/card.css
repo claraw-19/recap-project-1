@@ -27,6 +27,10 @@
   cursor: pointer;
 }
 
+.card__bookmark--selected {
+  fill: var(--complement-color-1);
+}
+
 .card__question {
   font-size: large;
   color: var(--text-color);
