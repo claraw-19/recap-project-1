@@ -60,3 +60,24 @@ form.addEventListener("submit", (event) => {
 
   form.reset();
 });
+
+const textQuestion = document.querySelector('[  data-js="text-question"]');
+const textAnswer = document.querySelector('[  data-js="text-answer"]');
+const characterQuestion = document.querySelector(
+  '[  data-js="character-count-question"]'
+);
+const characterAnswer = document.querySelector(
+  '[  data-js="character-count-answer"]'
+);
+
+textQuestion.addEventListener("input", (event) => {
+  characterQuestion.textContent = `${
+    150 - event.target.value.length
+  } characters left`;
+});
+
+textAnswer.addEventListener("input", (event) => {
+  characterAnswer.textContent = `${
+    150 - event.target.value.length
+  } characters left`;
+});

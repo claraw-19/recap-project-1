@@ -16,10 +16,29 @@
         <form data-js="form">
           <label for="question">
             Your question:
-            <textarea name="question" rows="6" cols="30"></textarea>
+            <textarea
+              data-js="text-question"
+              maxlength="150"
+              name="question"
+              rows="6"
+              cols="30"
+            ></textarea>
+            <p class="character-count" data-js="character-count-question">
+              150 characters left
+            </p>
           </label>
           <label for="answer">
-            Your answer: <textarea name="answer" rows="6" cols="30"></textarea>
+            Your answer:
+            <textarea
+              data-js="text-answer"
+              maxlength="150"
+              name="answer"
+              rows="6"
+              cols="30"
+            ></textarea>
+            <p class="character-count" data-js="character-count-answer">
+              150 characters left
+            </p>
           </label>
           <label for="tag"> Tag: </label>
           <input type="text" name="tag" id="tag" />
