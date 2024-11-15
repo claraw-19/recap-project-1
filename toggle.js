@@ -9,4 +9,7 @@ const solution = document.querySelector('[data-js="solution"]');
 
 showButton.addEventListener("click", () => {
   solution.toggleAttribute("hidden");
+  showButton.innerText = solution.hasAttribute("hidden")
+    ? "Show answer"
+    : "Hide answer";
 });
