@@ -10,3 +10,7 @@ label {
   flex-direction: column;
   gap: 10px;
 }
+
+.button--submit {
+  align-self: center;
+}
