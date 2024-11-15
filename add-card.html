@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recap-Project-1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+
+    <main class="main-content">
+      <div class="profile">
+        <form data-js="form">
+          <label for="question">
+            Your question:
+            <textarea name="question" rows="6" cols="30"></textarea>
+          </label>
+          <label for="answer">
+            Your answer: <textarea name="answer" rows="6" cols="30"></textarea>
+          </label>
+          <label for="tag"> Tag: </label>
+          <input type="text" name="tag" id="tag" />
+          <button class="button button--submit" type="submit">Submit</button>
+        </form>
+
+        <div data-js="card-container"></div>
+      </div>
+    </main>
+
+    <footer class="navbar">
+      <a href="./index.html">
+        <svg
+          class="navbar__svg"
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="var(--main-color)"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+          <path
+            d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+          />
+        </svg>
+      </a>
+      <a href="./bookmarks.html">
+        <svg
+          class="navbar__svg"
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="var(--main-color)"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
+        </svg>
+      </a>
+      <a href="./add-card.html">
+        <svg
+          class="navbar__svg"
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="var(--complement-color-1)"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="12" cy="12" r="10" />
+          <path d="M8 12h8" />
+          <path d="M12 8v8" />
+        </svg>
+      </a>
+      <a href="./profile.html">
+        <svg
+          class="navbar__svg"
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="var(--main-color)"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M18 20a6 6 0 0 0-12 0" />
+          <circle cx="12" cy="10" r="4" />
+          <circle cx="12" cy="12" r="10" />
+        </svg>
+      </a>
+    </footer>
+    <script src="add-card.js"></script>
+  </body>
+</html>
