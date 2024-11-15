@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <script src="js/add-card.js" defer></script>
     <header>
       <h1>Quiz App</h1>
     </header>
 
     <main class="main-content">
-      <div class="profile">
+      <div class="new-card">
         <form data-js="form">
           <label for="question">
             Your question:
             <textarea
+              class="textfield"
               data-js="text-question"
               maxlength="150"
               name="question"
@@ -30,6 +32,7 @@
           <label for="answer">
             Your answer:
             <textarea
+              class="textfield"
               data-js="text-answer"
               maxlength="150"
               name="answer"
@@ -41,11 +44,11 @@
             </p>
           </label>
           <label for="tag"> Tag: </label>
-          <input type="text" name="tag" id="tag" />
+          <input class="textfield" type="text" name="tag" id="tag" />
           <button class="button button--submit" type="submit">Submit</button>
         </form>
 
-        <div data-js="card-container"></div>
+        <div class="card-container" data-js="card-container"></div>
       </div>
     </main>
 
@@ -122,6 +125,5 @@
         </svg>
       </a>
     </footer>
-    <script src="add-card.js"></script>
   </body>
 </html>

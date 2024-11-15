@@ -1,7 +1,14 @@
 .navbar {
+  background-color: var(--background-color);
+  padding-top: 8px;
+  padding-bottom: 8px;
   display: flex;
   justify-content: center;
   gap: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .navbar__svg:hover {

@@ -20,3 +20,18 @@ p.character-count {
   margin-top: 0px;
   text-align: right;
 }
+
+.textfield {
+  background-color: var(--accent-color-2);
+  border-radius: 7px;
+  border: 2px solid var(--main-color);
+}
+
+.new-card {
+  width: 400px;
+}
+
+.card-container {
+  padding-bottom: 30px;
+  max-width: 600px;
+}
