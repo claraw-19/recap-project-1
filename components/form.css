@@ -14,3 +14,9 @@ label {
 .button--submit {
   align-self: center;
 }
+
+p.character-count {
+  font-size: small;
+  margin-top: 0px;
+  text-align: right;
+}
